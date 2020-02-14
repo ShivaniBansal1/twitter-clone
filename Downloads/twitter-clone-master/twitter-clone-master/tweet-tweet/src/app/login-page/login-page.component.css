@@ -1,0 +1,59 @@
+.card{
+    background-color: white;
+    border: none;
+}
+
+.card-body{
+    padding: 10% 30%;
+}
+
+#myButton{
+
+    width: 100%;
+    border-radius: 3rem;
+    
+
+}
+
+.form-control{
+    height: 3rem;
+    background-color: rgb(245, 248, 250);
+    border-bottom: black;
+    border: none ;
+    border-bottom: 2px solid darkslategrey
+}
+.form-control:focus {
+    border-color:  rgba(29,161,242,1.00);
+    box-shadow: none;
+       
+  }
+  .form-control:focus .text{
+    color :  rgba(29,161,242,1.00);
+       
+  }
+h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#twitter{
+    color: rgba(29,161,242,1.00);
+    font-size: 3rem;
+    
+}
+
+.image{
+    text-align: center;
+}
+
+.text{
+    padding: 1% 2%
+}
+
+.form-group{
+    background-color: rgb(245, 248, 250);
+}
+
+/* a{
+    text-align: center;
+} */

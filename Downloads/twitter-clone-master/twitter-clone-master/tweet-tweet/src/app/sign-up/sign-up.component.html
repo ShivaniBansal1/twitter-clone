@@ -1,0 +1,43 @@
+<div class="card" >
+    <div class="card-body">
+      <div class="image">
+          <i class="fa fa-twitter" id="twitter" ></i>
+        </div>
+      <h1 class="card-title">Create your account</h1>
+      <form>
+        <div class="form-group" > 
+          <!-- <label for="exampleInputEmail1">Email address</label> -->
+          <div class="text">Name</div>
+          <input type="name" required class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)"  id="exampleInputName1" aria-describedby="emailHelp" #nameInput>
+        </div>
+        <div class="form-group">
+          <!-- <label for="exampleInputPassword1">Password</label> -->
+          <div class="text">Username</div>
+          <input type="username" required class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)" id="exampleInputUsername1" #usernameInput>
+        </div>
+        <div class="form-group">
+            <!-- <label for="exampleInputPassword1">Password</label> -->
+            <div class="text">Email</div>
+            <input type="email"  required class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)" id="exampleInputEmail1" #emailInput>
+          </div>
+          <div class="form-group">
+            <!-- <label for="exampleInputPassword1">Password</label> -->
+            <div class="text">Password</div>
+            <input type="password" required class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)" id="exampleInputPassword1" #passwordInput>
+          </div>
+          <div class="form-group">
+            <!-- <label for="exampleInputPassword1">Password</label> -->
+            <div class="text">Phone</div>
+            <input type="number" class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)" id="exampleInputPhone1" #phoneInput>
+          </div>
+          <div class="form-group">
+            <!-- <label for="exampleInputPassword1">Password</label> -->
+            <div class="text">DOB</div>
+            <input type="date" required class="form-control" (keypress)="toggleDisabled(nameInput, phoneInput)" id="exampleInputDate1" #DOBInput>
+          </div>
+          <button  class="btn btn-primary" id = "myButton" [disabled]="isDisabled">Sign up</button>
+      </form>
+    </div>
+</div>
+
+
